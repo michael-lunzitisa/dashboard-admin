@@ -1,6 +1,8 @@
 import {
     HiOutlineCog,
+    HiOutlineCube,
     HiOutlineQuestionMarkCircle,
+    HiOutlineShoppingCart,
     HiOutlineUser,
     HiOutlineViewGrid,
 } from "react-icons/hi";
@@ -8,15 +10,15 @@ import {
 export const DASHBOARD_SIDBAR_LINKS = [
     {
         key: "dashboard",
-        label: "Dashboard",
-        path: "/dashboard",
+        label: "Accueil",
+        path: "/",
         icon: <HiOutlineViewGrid />,
     },
     {
-        key: "customers",
-        label: "Customers",
-        path: "/",
-        icon: <HiOutlineUser />,
+        key: "messages",
+        label: "Messages",
+        path: "/messages",
+        icon: <HiOutlineCube />,
     },
 ];
 
@@ -26,11 +28,5 @@ export const DASHBOARD_SIDBAR_BOTTOM_LINKS = [
         label: "Setings",
         path: "/setings",
         icon: <HiOutlineCog />,
-    },
-    {
-        key: "support",
-        label: "Support",
-        path: "/",
-        icon: <HiOutlineQuestionMarkCircle />,
     },
 ];

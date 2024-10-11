@@ -13,7 +13,7 @@ export default function Sidebar() {
     return (
         <div className="bg-neutral-900 w-60 p-3 flex flex-col text-white">
             <div className="flex items-center gap-2 px-1 py-3">
-                <FcBullish fontSize={24} /> <span className="">OpenShop</span>
+                <FcBullish fontSize={24} /> <span className="">ChatApp</span>
             </div>
             {/* <div className="text-neutral-100 text-lg">top bar</div> */}
             <div className="flex-1 py-8 flex flex-col gap-0.5 ">
