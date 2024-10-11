@@ -9,6 +9,7 @@ export const UserProvider = ({ children }) => {
     useEffect(() => {
         const fetchUser = async () => {
             const token = localStorage.getItem("token");
+
             if (token) {
                 try {
                     const response = await axios.get(
